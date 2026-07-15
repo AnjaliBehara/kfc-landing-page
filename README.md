@@ -1,4 +1,4 @@
-# 🍗 KFC Landing Page (React)
+#  KFC Landing Page (React)
 
 A responsive KFC-inspired landing page built using React, HTML5, CSS3, and JavaScript.
 
