@@ -1,0 +1,124 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    margin-top:20px;
+    font-weight:600;
+    border-bottom:2px solid rgb(223, 37, 37);
+    padding-bottom:5px;
+}
+.navbar img{
+    width:50px;
+}
+.nav-links a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.nav-links a:hover{
+    color:#e4002b;
+}
+ul{
+    display:flex;
+    gap:40px;
+    list-style:none;
+}
+
+ul li{
+    padding:0;
+    margin:0;
+}
+.btn1{
+    margin-right:50px;
+    background-color:rgb(149, 161, 197);
+    color:white;
+    padding:10px 20px;
+    cursor:pointer;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.btn1:hover{
+    background-color:transparent;
+    border:1px solid rgb(210, 62, 62);
+    color:rgb(210, 62, 62);
+}
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:50px 100px;
+}
+.left{
+    margin-left:100px;
+    transform:translateX(-500px);
+    animation:left-right 1s ease forwards;
+}
+.title{
+    font-size:80px;
+    font-weight:800;
+    line-height:1.0;
+}
+.left p{
+    width:400px;
+    font-size:14px;
+    line-height:20px;
+    animation:left-right 1s ease forwards;
+}
+@keyframes left-right{
+    100%{
+        transform:translateX(0px);
+    }
+}
+.btns{
+    display:flex;
+    gap:20px;
+    margin-top:30px;
+}
+.btn2{
+    margin-right:50px;
+    background-color:transparent;
+    color:rgb(210, 62, 62);
+    padding:10px 20px;
+    cursor:pointer;
+    font-weight:600;
+    transition:0.3s ease;
+}
+.btn2:hover{
+    background-color:rgb(134, 124, 166);
+    
+    color:white;
+}
+.socials{
+    margin-top:20px;
+}
+.social-icons{
+    display:flex;
+    align-items:center;
+    margin-top:5px;
+    gap:15px;
+
+}
+.social-icons img{
+    width:30px;
+
+}
+
+.right img{
+    width:500px;
+    transform:scale(0);
+    animation:zoom-in 1.5s ease forwards;
+
+}
+@keyframes zoom-in{
+    100%{
+        transform:scale(1);
+    }
+}
