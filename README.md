@@ -1,16 +1,33 @@
-# React + Vite
+# 🍗 KFC Landing Page (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive KFC-inspired landing page built using React, HTML5, CSS3, and JavaScript.
 
-Currently, two official plugins are available:
+## Features
+- Responsive Navigation Bar
+- Smooth Hover Effects & CSS Transitions
+- Modern Hero Section
+- Interactive Buttons
+- Responsive Design
+- Clean UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
+## 📸 Project Preview
 
-## Expanding the ESLint configuration
+![KFC Landing Page]:- <img width="1600" height="754" alt="WhatsApp Image 2026-07-15 at 8 11 29 AM" src="https://github.com/user-attachments/assets/ad8f79e4-f9b0-4ff8-8556-40e3669004a4" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Author
+
+Anjali Behara
